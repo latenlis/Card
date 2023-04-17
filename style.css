@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+#controlPanner {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#StartGame {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+#numberOutput {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+#colNumberOutput {
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+}
+#board {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 20px black;
+    margin: 20px auto
+}
+.card {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-image: url("imgBG.jpg");
+    background-size: 100px 100px;
+    border: 5px solid black;
+}
